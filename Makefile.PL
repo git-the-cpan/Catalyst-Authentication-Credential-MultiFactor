@@ -5,7 +5,7 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     NAME              => 'Catalyst::Authentication::Credential::MultiFactor',
     VERSION_FROM      => 'lib/Catalyst/Authentication/Credential/MultiFactor.pm', # finds $VERSION
-    PREREQ_PM         => {'Moose', 'namespace::autoclean'}, # e.g., Module::Name => 1.1
+    PREREQ_PM         => {'Moose' => 0, 'namespace::autoclean' => 0}, # e.g., Module::Name => 1.1
     ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
       (AUTHOR         => 'Cédric Jeanneret <cpan@tengu.ch>') : ()),
 );
