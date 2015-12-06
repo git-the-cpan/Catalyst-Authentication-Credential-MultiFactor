@@ -1,5 +1,8 @@
 Revision history for Perl extension Catalyst::Authentication::Credential::MultiFactor.
 
+1.2 Sun Dec 06 09:43:01 2015
+       - Bump version due to upload conflict
+
 1.1 Sat Dec 05 18:24:15 2015
        - Corrected Makefile.PL for newer perl
 

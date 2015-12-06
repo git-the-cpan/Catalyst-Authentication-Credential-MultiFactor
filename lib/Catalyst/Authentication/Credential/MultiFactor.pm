@@ -6,7 +6,7 @@ use 5.01.102;
 
 use Moose;
 
-our $VERSION = '1.1';
+our $VERSION = '1.2';
 
 has config => (is => 'ro', required => 1);
 has factors => (is => 'ro', default => sub { [] });
@@ -62,7 +62,7 @@ Catalyst::Authentication::Credential::MultiFactor
 
 =head VERSION
 
-Version 1.1
+Version 1.2
 
 =head1 DESCRIPTION
 
