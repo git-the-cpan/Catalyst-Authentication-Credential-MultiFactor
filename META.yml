@@ -1,14 +1,14 @@
 ---
 abstract: unknown
 author:
-  - 'Cédric Jeanneret <cpan@tengu.ch>'
+  - 'CÃ©dric Jeanneret <cpan@tengu.ch>'
 build_requires:
   ExtUtils::MakeMaker: '0'
 configure_requires:
   ExtUtils::MakeMaker: '0'
 dynamic_config: 1
-generated_by: 'ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.150005'
-license: unknown
+generated_by: 'ExtUtils::MakeMaker version 7.1, CPAN::Meta::Converter version 2.150005'
+license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: '1.4'
@@ -20,5 +20,9 @@ no_index:
 requires:
   Moose: '0'
   namespace::autoclean: '0'
-version: '1.2'
-x_serialization_backend: 'CPAN::Meta::YAML version 0.016'
+resources:
+  Contrib: https://github.com/cjeanneret/catalyst-authentication-credential-multifactor/blob/master/CONTRIB
+  Issue: https://github.com/cjeanneret/catalyst-authentication-credential-multifactor/issues
+  repository: https://github.com/cjeanneret/catalyst-authentication-credential-multifactor.git
+version: 1.2_1
+x_serialization_backend: 'CPAN::Meta::YAML version 0.012'

@@ -1,12 +1,12 @@
 {
    "abstract" : "unknown",
    "author" : [
-      "Cédric Jeanneret <cpan@tengu.ch>"
+      "CÃ©dric Jeanneret <cpan@tengu.ch>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.150005",
+   "generated_by" : "ExtUtils::MakeMaker version 7.1, CPAN::Meta::Converter version 2.150005",
    "license" : [
-      "unknown"
+      "perl_5"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
@@ -37,7 +37,14 @@
          }
       }
    },
-   "release_status" : "stable",
-   "version" : "1.2",
+   "release_status" : "testing",
+   "resources" : {
+      "repository" : {
+         "url" : "https://github.com/cjeanneret/catalyst-authentication-credential-multifactor.git"
+      },
+      "x_Contrib" : "https://github.com/cjeanneret/catalyst-authentication-credential-multifactor/blob/master/CONTRIB",
+      "x_Issue" : "https://github.com/cjeanneret/catalyst-authentication-credential-multifactor/issues"
+   },
+   "version" : "1.2_1",
    "x_serialization_backend" : "JSON::PP version 2.27203"
 }

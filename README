@@ -1,8 +1,9 @@
-Catalyst-Authentication-Credential-MultiFactor version 1.1
-===========================================================
+Catalyst::Authentication::Credential::MultiFactor
+=================================================
 
 
 INSTALLATION
+------------
 
 To install this module type the following:
 
@@ -12,6 +13,7 @@ To install this module type the following:
    make install
 
 DEPENDENCIES
+------------
 
 This module requires these other modules and libraries:
 
@@ -19,6 +21,7 @@ This module requires these other modules and libraries:
   namespace::autoclean
 
 COPYRIGHT AND LICENCE
+---------------------
 
 Copyright (C) 2012 by Cédric Jeanneret
 

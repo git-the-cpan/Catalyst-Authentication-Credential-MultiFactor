@@ -6,7 +6,7 @@ use 5.01.102;
 
 use Moose;
 
-our $VERSION = '1.2';
+our $VERSION = '1.2_1';
 
 has config => (is => 'ro', required => 1);
 has factors => (is => 'ro', default => sub { [] });
@@ -60,10 +60,6 @@ __END__
 
 Catalyst::Authentication::Credential::MultiFactor
 
-=head VERSION
-
-Version 1.2
-
 =head1 DESCRIPTION
 
 Provides multi-factor authentication to your Catalyst app
@@ -114,6 +110,10 @@ Uses the Catalyst::Plugin::Authentication system.
    make test
    make install
 
+=head1 SEE ALSO
+
+L<Catalyst::Plugin::Authentication>
+
 =head1 DEPENDENCIES
 
   This module requires these other modules and libraries:
@@ -121,7 +121,7 @@ Uses the Catalyst::Plugin::Authentication system.
   Moose
   namespace::autoclean
 
-=head 1COPYRIGHT AND LICENCE
+=head1 COPYRIGHT AND LICENCE
 
   Copyright (C) 2012 by Cédric Jeanneret
 
